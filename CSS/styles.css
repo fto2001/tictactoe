@@ -1,0 +1,48 @@
+body {
+    background-color: gray;
+}
+
+#basic {
+    text-align: center;
+}
+
+.text {
+    font-size: 50px;
+}
+
+.sub {
+    font-size: 30px;
+}
+
+#area {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.box {
+    max-width: 33%;
+    width: 200px;
+    height: 130px;
+    background-color: white;
+    margin: 10px;
+    border: 5px solid black;
+    font-size: 100px;
+    color: black;
+}
+
+.box:hover {
+    background-color: antiquewhite;
+}
+
+.xo {
+    font-size: 100px;
+    color: black;
+}
+
+.o {
+    font-size: 80px;
+    color: black;
+}
